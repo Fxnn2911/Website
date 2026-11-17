@@ -1,0 +1,51 @@
+html {
+    background-image: url("background.png");
+    background-repeat: repeat;
+}
+
+body {
+    background-color: #d8d8d8;
+    max-width: 900px;
+    margin: 30px auto 60px auto;
+    padding: 40px;
+    font-family: "Lucida Sans", sans-serif;
+}
+
+img {
+    width: 200px;
+    float: right;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+ul {
+    list-style: circle;
+}
+
+li ul {
+    list-style: square;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:visited {
+    text-decoration: none;
+    color: darkgreen;
+}
